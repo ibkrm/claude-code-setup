@@ -1,0 +1,31 @@
+{
+  "_readme": "Structured feature tracker. Claude reads and updates this file incrementally. Do not convert to Markdown. Add features here before starting work on them.",
+  "_statuses": ["todo", "in-progress", "complete", "blocked"],
+  "features": [
+    {
+      "id": "F001",
+      "name": "Project scaffold",
+      "status": "todo",
+      "description": "Initial repo setup: Vite, React, TanStack Router, TanStack Query, shadcn/ui, Tailwind, TypeScript strict",
+      "acceptance": [
+        "npm run dev starts without errors",
+        "npm run typecheck passes",
+        "npm run lint passes",
+        "Basic route renders in browser"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "F002",
+      "name": "OpenAPI type generation pipeline",
+      "status": "todo",
+      "description": "Wire up openapi-typescript to generate src/types/api.ts from openapi.json",
+      "acceptance": [
+        "npm run gen:types runs without errors",
+        "src/types/api.ts is generated and committed",
+        "No hand-written API types exist in codebase"
+      ],
+      "notes": ""
+    }
+  ]
+}

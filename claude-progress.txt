@@ -1,0 +1,27 @@
+# Claude Progress Log
+# Updated at the end of every session by /end-session
+# Read at the start of every session by /start-session
+# Do not delete entries — append only. Keep last 10 sessions max then archive.
+
+================================================================================
+SESSION: [DATE] [AUTHOR/AGENT]
+STATUS: [in-progress | complete | blocked]
+FEATURE: [feature name from features.json]
+================================================================================
+
+WHAT WAS DONE:
+- (summary of changes made this session)
+
+COMMITS:
+- (list commit hashes + messages)
+
+DECISIONS MADE:
+- (any architectural or approach decisions that future sessions should know)
+
+NEXT SESSION SHOULD:
+- (specific next task, not vague — e.g. "add error state to LoginForm, msw handler already set up in tests/handlers.ts")
+
+BLOCKERS / OPEN QUESTIONS:
+- (anything unresolved that needs a human decision)
+
+================================================================================
